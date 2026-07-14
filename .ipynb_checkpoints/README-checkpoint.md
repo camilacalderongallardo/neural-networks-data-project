@@ -45,32 +45,6 @@ student video-watching behavior from an online learning platform.
 - Comparison across multiple feature pair combinations
 
 
-## Repository structure
-
-knn-data-science-mini-project/
-├── data/
-│   └── behavior_performance.txt
-├── notebooks/
-│   └── analysis.ipynb
-├── src/
-│   ├── preprocessing.py
-│   ├── clustering.py
-│   ├── regression.py
-│   ├── classification.py
-│   └── visualization.py
-├── outputs/
-│   ├── cluster_results.png
-│   ├── regression_results.png
-│   ├── confusion_matrices.png
-│   └── feature_scatterplots.png
-├── requirements.txt
-└── README.md
-
-The src/ directory contains reusable implementations for preprocessing,
-clustering, regression, and classification. The analysis notebooks and
-visualizations demonstrate the complete machine learning workflow from
-raw data to model evaluation.
-
 ## Run the complete project
 python -m venv .venv
 
